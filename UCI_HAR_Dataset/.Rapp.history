@@ -1,0 +1,201 @@
+demo()
+abline(g$coef,lty=3,col='blue')
+qtukey(0.95,2,5)
+qtukey(0.95,2,5)*sqrt(2.333/6)
+(qtukey(0.95,2,5)*sqrt(2.333/6))+19.667-17.333
+(qtukey(0.95,2,5)*sqrt(2.333/6))-(19.667-17.333)
+-(qtukey(0.95,2,5)*sqrt(2.333/6))+(19.667-17.333)
+qt(0.975,5)
+2.33+(qt(0.975,5))*SQRT(2.333/6)
+2.33+(qt(0.975,5))*sqrt(2.333/6)
+2.33-(qt(0.975,5))*sqrt(2.333/6)
+2.33-(qt(0.975,10))*sqrt(2.333/6)
+2.33+(qt(0.975,10))*sqrt(2.333/6)
+2.33-(qt(0.975,10))*sqrt(2.333/6)
+2.33-(qt(0.975,10))*sqrt(2*2.333/6)
+2.33+(qt(0.975,10))*sqrt(2*2.333/6)
+2.33+(qt(0.975,5))*sqrt(2*2.333/6)
+2.33-(qt(0.975,5))*sqrt(2*2.333/6)
+qtukey(0.95,3,6)
+qtukey(0.95,3,9)
+qtukey(.05,5,40)
+qtukey(.95,5,40)
+t(1.2)
+tdist(1.1)
+tinv(o)
+pt(.005,10)
+pt(.01,10)
+pt(.99,10)
+pt(.995,10)
+pt(.99,10)
+qt(.99,20)
+qt(.995,20)
+qt(.995,10)
+qt(.99,10)
+qt(.995,10)
+qt(.95,10)
+qt(.9,10)
+library(mass)
+library(MASS)
+1
+2
+1+1
+sqrt(2)
+(2)^2
+2^2^2
+2^2^2^2^2
+2^2^2
+2^2^2^2
+2^2^2^2^2
+Inf/0
+9/0
+0/1
+-1/0
+sin inf
+(sin inf)/inf
+sin 0
+(Sin 0)/0
+library(MASS)
+install.packages('car')
+chisq
+qchisq(4,.05)
+qchisq(4,.001)
+qchisq(.001,4)
+qchisq(.001,4,lower.tail=false)
+qchisq(.01,4,lower.tail=false)
+qchisq(.01,4,lower.tail=FALSE)
+a<-available.packages()
+avaiable.packages()
+available.packages()
+install.packages("slidify")
+head(rownames(a),3)
+a
+head(rownames(a),3)
+source("http://bioconductor.org/bioLite.R")
+source("http://bioconductor.org/biocLite.R")
+biocLite)
+biocLite()
+library(ggplot2)
+install.package(ggplot2)
+install.packages(ggplot2)
+install.packages("ggplot2")
+library(ggplot2)
+search
+search()
+install.packages("KernSmooth")
+ibrary(KernSmooth)
+library(KernSmooth)
+library(xlsx)
+library(rJava)
+library(xlsx)
+library(xlsxjars)
+library(xlsx)
+if(!file.exists("data")){dir.create("data")}
+fileURL<-
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FDATA.gov_NGAP.xlsx ?accessType=DOWNLOAD"
+download.file(fileURL,destfile="./data/camera.xlsx", method= "curl")
+cameraData<-read.xlsx("./data/camera.xlsx",header=TRUE)
+cameraData<-read.xlsx("./data/camera.xlsx",sheetIndex=1,header=TRUE)
+head(cameraData)
+colIndex<-7:15
+rowIndex<-18:23
+cameraDataSubset<-read.xlsx("./data/camera.xlsx",sheetIndex=1,colIndex=colIndex,rowIndex=rowIndex)
+cameraDataSubset
+dat<-read.xlsx("./data/camera.xlsx",sheetIndex=1,colIndex=colIndex,rowIndex=rowIndex)
+sum(dat$Zip*dat$Ext,na.rm=T)
+library(XML)
+install(XML)
+instal(XML)
+install
+library(XML)
+fileURL<="https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml "
+fileURL<="https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+doc<-xmlTreeParse(fileUrl,useInternal=TRUE)
+doc<-xmlTreeParse(fileURL,useInternal=TRUE)
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+download.file(fileURL,destfile="./data/camera.xlsx", method= "curl")
+download.file(fileURL,destfile="./data/camera.xml", method= "curl")
+doc<-xmlInternalTreeParse(fileURL)
+doc<-xmlInternalTreeParse(camera.xml)
+doc<-xmlInternalTreeParse("camera.xml")
+doc<-xmlInternalTreeParse(".data/camera.xml")
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+doc<-xmlInternalTreeParse(".data/camera.xml")
+doc<-xmlInternalTreeParse(".data/camera.xml", useInternal=TRUE)
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+download.file(fileURL, destfile="./localFile.xml", method="curl", quiet=T)
+doc <- xmlTreeParse("./localFile.xml", useInternal=T)
+rootNode<xmlRoot(dox)
+rootNode<xmlRoot(doc)
+rootNode<-xmlRoot(doc)
+xmlName(rootNode)
+rootNode[[1]]
+rootNode[[1]][[1]]
+doc
+library(data.table)
+?data.table
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv "
+fileURL<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv"
+download.file(fileURL, destfile="./localFile.csv", method="curl")
+fread(localFile.csv)
+fread(/.localFile.csv)
+cube <- function(x, n) {#
+        x^3#
+}
+cube(3)
+x <- 1:10#
+if(x > 5) {#
+        x <- 0#
+}
+x
+x <- 1:10#
+if(x > 5) {#
+        x <- 0#
+}
+x <- 1:10#
+if(x == c(1:10)) {#
+        x <- 0#
+}
+x <- 1:10#
+if(x == c(1:10)) {#
+        x <- 0#
+}f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)}
+z <- 10#
+f(3)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+var1 <- read.table("train/X_train.txt")#
+#
+var2 <- read.table("test/X_test.txt")#
+#
+X <- rbind(var1, var2)#
+#
+var3 <- read.table("train/y_train.txt")#
+#
+var4 <- read.table("test/y_test.txt")#
+#
+Y <- rbind(var3, var4)#
+#
+var5 <- read.table("train/subject_train.txt")#
+#
+var6 <- read.table("test/subject_test.txt")#
+#
+S <- rbind(var5, var6)
